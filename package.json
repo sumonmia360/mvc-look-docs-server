@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./dist/server.mjs",
+    "start": "nodemon ./dist/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,9 +18,11 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",
+    "nodemon": "^3.1.10",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "typescript": "^5.8.3"
   }
 }
